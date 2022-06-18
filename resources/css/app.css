@@ -1,0 +1,19 @@
+/* Custom Styles */
+:root{
+  --scroll-color: #14b8a6;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  position: relative;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-color);
+  border-radius: 3px;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+.font-title {
+  font-family: 'Righteous', cursive;
+}
